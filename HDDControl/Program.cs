@@ -1,9 +1,14 @@
 ﻿using System;
 
-namespace HDDControl{
-    class Program{
+namespace SoloVova.Helpers.HDDControl{
+    internal static class Program{
         static void Main(string[] args){
-            Console.WriteLine("Hello World!");
+            // HddControl hddControl = new HddControl();
+            // //hddControl.GetFilteredHDD();
+            // hddControl.WriteCycle();
+            // string? p = Console.ReadLine();
+            HddTimer hddTimer = new HddTimer();
+            hddTimer.Start();
         }
     }
 }

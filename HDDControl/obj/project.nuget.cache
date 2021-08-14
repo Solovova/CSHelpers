@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "Yhmh2z6g6uy1mgSZOR2OcUARGm3P1xVRYGQmZdp1nQmJyJ+woBkZ+XfTnyJ7ra3fUwgH0DSgrfbb3TKDTgYx3Q==",
+  "dgSpecHash": "TwnMpJFBZyyM6rBmu+HOcUUW+LvRxowgQi7vjq2pmLEbFq1GMZEYLWH6yc60sMAycuZdtXSxYt9A7+sVv/mSPg==",
   "success": true,
   "projectFilePath": "D:\\3prg\\CSHelpers\\HDDControl\\HDDControl.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\vsolo\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\5.0.9\\microsoft.netcore.app.runtime.win-x64.5.0.9.nupkg.sha512",
+    "C:\\Users\\vsolo\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\5.0.9\\microsoft.windowsdesktop.app.runtime.win-x64.5.0.9.nupkg.sha512",
+    "C:\\Users\\vsolo\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\5.0.9\\microsoft.aspnetcore.app.runtime.win-x64.5.0.9.nupkg.sha512"
+  ],
   "logs": []
 }
