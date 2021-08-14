@@ -10,7 +10,7 @@ namespace SoloVova.Helpers.HDDControl{
         
         private void SetTimer()
         {
-            _timer = new System.Timers.Timer(30000);
+            _timer = new System.Timers.Timer(1000*60*1);
             _timer.Elapsed += OnTimedEvent;
             _timer.AutoReset = true;
             _timer.Enabled = true;
@@ -26,10 +26,6 @@ namespace SoloVova.Helpers.HDDControl{
             while (true){
                 System.Threading.Thread.Sleep(2000);
             }
-            
-            _timer?.Stop();
-            _timer?.Dispose();
-            
         }
     }
 }

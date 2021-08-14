@@ -80,7 +80,7 @@ namespace SoloVova.Helpers.HDDControl{
             else{
                 result += " not ready ";
             }
-            result += $" {WriteToDriveTimer(dInfo.Name)}";
+            result += $" {WriteToDriveTimer(dInfo.Name)}\n";
             return result;
         }
 
